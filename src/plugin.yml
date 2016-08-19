@@ -1,0 +1,16 @@
+name: McCitiesSchool
+version: 1.0
+main: me.Bryan.School.Main
+author: Santa
+description: A schools plugin made for McCities
+commands:
+  class:
+    description: Base command for McCities School plugin
+permissions:
+  school.*:
+    description: Gives you all perms of school plugin
+    children: 
+      school.teacher: true
+  school.teacher:
+    description: Gives you perms of a teacher
+    default: false
